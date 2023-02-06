@@ -1,0 +1,45 @@
+# section information
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: Computer Scientist
+# your company information
+company:
+  name: Enhanced Software Products
+  url: "https://www.espsolution.net"
+
+# your resume. this file path should be relative to you "static" directory
+#resume: "files/resume.pdf"
+
+# a summary about you
+summary: 'I am a passionate ethical hacker and software engineer with 5 years of working experience. Managing and securing linux and windows systems in physical and virtual enviornments. Check out my Minecraft Mod Maker [MCModTools](example.com)!'
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Github
+  icon: "fab fa-github"
+  url: "https://www.github.com/GavinRigsby"
+- name: Youtube
+  icon: "fab fa-youtube"
+  url: "https://youtube.com"
+
+# your soft skills
+# give the percentage between 50 to 100 with 5 intervals.
+# currently supported colors: blue, yellow, pink, green, sky, orange
+softSkills:
+- name: Unix
+  percentage: 85
+  color: blue
+- name: Python
+  percentage: 90
+  color: yellow
+- name: C#
+  percentage: 90
+  color: sky

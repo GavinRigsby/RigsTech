@@ -1,0 +1,50 @@
+baseURL: https://GavinRigsby.Tech
+languageCode: 'en-us'
+title: 'Gavin Rigsby Portfolio'
+theme: 'Toha'
+
+# Manage languages
+# For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+
+# Control TOC depth
+markup:
+  tableOfContents:
+    startLevel: 2
+    endLevel: 6
+    ordered: false 
+
+# Enable global emoji support
+enableEmoji: true
+
+# Site parameters
+params:
+  # GitHub repo URL of your site
+  gitRepo: https://github.com/GavinRigsby/RigsTech
+
+  # specify whether you want to write some blog posts or not
+  enableBlogPost: true
+
+  # specify whether you want to show Table of Contents in reading page
+  enableTOC: true
+
+  # Provide newsletter configuration. This feature hasn't been implemented yet.
+  # Currently, you can just hide it from the footer.
+  newsletter:
+    enable: true
+
+  background: "images/background.jpeg"
+
+  darkMode:
+    enable: true
+    provider: darkreader
+    default: system
+  
+  features:
+    analytics:
+      enabled: true
+      counterDev:
+        id: 51b8244a-481c-4618-a4ea-711c7ca49d3e
