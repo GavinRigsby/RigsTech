@@ -1,0 +1,6 @@
+{{ define "youtube-post" }}
+<div class="youtube-post">
+  <iframe src="https://www.youtube.com/embed/{{ .Params.videoCode }}" frameborder="0" allowfullscreen></iframe>
+  <p>{{ .Params.description }}</p>
+</div>
+{{ end }}

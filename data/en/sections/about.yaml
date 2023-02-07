@@ -34,12 +34,18 @@ socialLinks:
 # give the percentage between 50 to 100 with 5 intervals.
 # currently supported colors: blue, yellow, pink, green, sky, orange
 softSkills:
-- name: Unix
-  percentage: 85
+- name: Networking
+  percentage: 50
   color: blue
-- name: Python
+
+- name: Scripting
   percentage: 90
   color: yellow
-- name: C#
+
+- name: Security
   percentage: 90
   color: sky
+
+- name: Databases
+  percentage: 90
+  color: '#FF0000'

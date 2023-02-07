@@ -11,32 +11,18 @@ section:
 # Your experiences
 experiences:
 - company:
-    name: Example Co.
-    url: "https://www.example.com"
-    location: Dhaka Branch
+    name: Enhanced Software Products
+    url: "https://espsolution.net"
+    location: Spokane, Valley
     # company overview
-    overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+    overview: ESP is a Core Processor working soley with Credit Unions. We develop and implement software for the Credit Union industry
   positions:
-  - designation: Senior Software Engineer
+  - designation: Systems Administrator
     start: Nov 2019
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Design and develop XYZ tool for ABC task
-    - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
-    - Lead backend team.
-
-- company:
-    name: PreExample Co.
-    url: "https://example.com"
-    location: Nowhere
-    overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
-  positions:
-  - designation: Software Engineer
-    start: March 2016
-    end: May 2017
-    responsibilities:
-    - Write lots of example codes.
-    - Read lots of examples.
-    - See lots of example videos.
+    - Design, develop and manage SQL restore powered by [Jira](https://www.atlassian.com/software/jira), [Rundeck](https://www.rundeck.com/), and [AWS S3](https://aws.amazon.com/s3/). [(Learn more)](https://localhost:3003/projects/AutomatedRestore)
+    - Designed a automated peripheral installer using [NSIS](https://nsis.sourceforge.io/)
+    - Administering computers and servers in Active Directory and Azure AD enviornments

@@ -1,22 +1,21 @@
 {
-  "name": "vanilla-hugo",
+  "name": "RigsTech",
   "version": "1.0.0",
-  "description": "This is a vanilla hugo site intended for demonstration purposes. Follow the guide to adding TinaCMS [here](https://tina.io/guides/tinacms/non-react-based-ssg/guide/)",
+  "description": "This is a portfolio website for Gavin Rigsby",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tinalabs/vanilla-hugo.git"
+    "url": "git+https://github.com/GavinRigsby/RigsTech"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/tinalabs/vanilla-hugo/issues"
+    "url": "https://github.com/GavinRigsby/RigsTech/issues"
   },
-  "homepage": "https://github.com/tinalabs/vanilla-hugo#readme",
+  "homepage": "https://github.com/GavinRigsby/RigsTech#readme",
   "dependencies": {
     "@tinacms/cli": "^1.0.8",
     "tinacms": "^1.1.5"

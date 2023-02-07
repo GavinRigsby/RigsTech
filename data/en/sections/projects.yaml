@@ -21,28 +21,52 @@ buttons:
 
 # your projects
 projects:
-- name: Kubernetes
+- name: MCModTools
   logo: /images/sections/projects/kubernetes.png
-  role: Contributor
+  role: Owner
   timeline: "March 2018 - Present"
   repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
   #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: Production-Grade Container Scheduling and Management.
+  summary: A Minecraft Modding Tool developed in C# to easily create Minecraft Bedrock Addons. 
   tags: ["professional", "kubernetes", "cloud"]
 
-- name: Tensorflow
+- name: Alex
   logo: /images/sections/projects/tensorflow.png
   role: Developer
   timeline: "Jun 2018 - Present"
   repo: https://github.com/tensorflow/tensorflow
   #url: ""
-  summary: An Open Source Machine Learning Framework for Everyone.
+  summary: An open source Minecraft java and bedrock dual client. Capable of joining and playing on Bedrock and Java Servers from a single client.
   tags: ["professional", "machine-learning","academic"]
 
-- name: Toha
+- name: SurveySavior
   logo: /images/sections/projects/toha.png
   role: Owner
   timeline: "Jun 2019 - Present"
   repo: https://github.com/hossainemruz/toha
-  summary: A Hugo theme for personal portfolio.
+  summary: A python web tool to automatically fill out servey's from top chains to get free stuff.
   tags: ["hobby","hugo","theme","professional"]
+
+- name: Automated Restore
+  logo: /images/sections/projects/toha.png
+  role: Owner
+  timeline: "Jun 2019 - Present"
+  repo: https://github.com/hossainemruz/toha
+  summary: An automated SQL database restore plan for Finding, Transferring and Restoring Backups to and from multiple servers using Rundeck implementing WinRM.
+  tags: ["hobby","hugo","theme","professional"]
+
+- name: CTF Calvery
+  logo: /images/sections/projects/toha.png
+  role: Owner
+  timeline: "Jun 2019 - Present"
+  repo: https://github.com/hossainemruz/toha
+  summary: A containerized CTF enviornment run with Ansible and LXD. CTFd for managing challanges and Apache Guacamole for device access.
+  tags: ["hobby","Ansible","Bash","LXD", "CTFd"]
+
+- name: IOC Database
+  logo: /images/sections/projects/toha.png
+  role: Owner
+  timeline: "Jun 2019 - Present"
+  repo: https://github.com/hossainemruz/toha
+  summary: A Blazor Web Application for containerized database to store, import and export IOCs. 
+  tags: ["Academic", "Security","Web Application", "Blazor", "C#"]

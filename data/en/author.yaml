@@ -2,7 +2,7 @@
 name: "Gavin Rigsby"
 nickname: "Gavin"
 # greeting message before your name. it will default to "Hi! I am" if not provided
-greeting: "Hi!, I am"
+greeting: "I am a"
 image: "images/Profile.jpg"
 # give your some contact information. they will be used in the footer
 contactInfo:

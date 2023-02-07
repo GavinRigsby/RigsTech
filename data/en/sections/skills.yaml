@@ -11,16 +11,16 @@ section:
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
-- name: Kubernetes
+- name: Python
   #logo: "/images/sections/skills/kubernetes.png"
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
-  url: "https://kubernetes.io/"
+  summary: "Ability to write Applications and Scripts to accomplish a multitude of tasks (Web Scraping, Packet Investigation, etc)"
+  url: "https://www.python.org/"
 
-- name: Go Development
+- name: Development with WPF (C#)
   #logo: "/images/sections/skills/go.png"
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
-  url: "https://golang.org/"
+  summary: "My main framework for developing applications. Ability to create efficient and appealing programs"
+  url: "https://github.com/dotnet/wpf"
 
-- name: Cloud Computing
+- name: Penetration Testing
   #logo: "/images/sections/skills/cloud.png"
-  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
+  summary: "Knowledge of tools for auditing, scanning, and fuzzing of computers and networks as well as the ability to recognize and exploit vulnerabilites"

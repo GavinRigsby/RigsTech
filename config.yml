@@ -48,3 +48,11 @@ params:
       enabled: true
       counterDev:
         id: 51b8244a-481c-4618-a4ea-711c7ca49d3e
+  
+  particleBackground:
+    enable: true
+    color: white
+    count: 100
+    background: "#FFFFFF"
+    click: "grab"
+    hover: "bubble"
