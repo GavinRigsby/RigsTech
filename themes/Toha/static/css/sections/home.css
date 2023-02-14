@@ -23,6 +23,12 @@
   justify-content: center;
 }
 
+div.container.content.text-center {
+  position: relative;
+  padding: 20vh 0px;
+  margin: 10px auto;
+}
+
 /*
   Resolves https://github.com/hugo-toha/toha/issues/70
 

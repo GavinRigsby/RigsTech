@@ -122,16 +122,14 @@
     <div id="homePageBackgroundImageDivStyled" class="background container-fluid"></div>
 {{ else }}
 
-    <div id="particles-js" class="container-fluid">
+    <div id="particles-js" class="container-fluid"
+    style="position: fixed; z-index: -1;">
       <canvas class="particles-js-canvas-el"></canvas>
     </div>
         
 {{ end }}
-        <div class="container content text-center" style="position: absolute;
-        top: 25%;
-        left: 20%;
-        height: 50%;
-        pointer-events: none;">
+        {{/* Need to add custom css for responsiveness */}}
+        <div class="container content text-center" style="position: relative; pointer-events: none; padding: 40vh 0px; margin: 10px auto;">
           <img src="{{ $authorImage.RelPermalink }}" class="rounded-circle mx-auto d-block img-fluid" alt="Author Image" />
           <h1 class="greeting"> Hello I am {{ $name }},</h1>
           <h1 class="greeting">{{ $author.greeting }}</h1>

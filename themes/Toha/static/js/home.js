@@ -2,6 +2,20 @@
 
 var projectCards, publicationCards;
 
+
+$(window).scroll(function() {
+  if ($(this).scrollTop() > (screen.height + 50)) {
+      $('.particles-js-canvas-el').css({
+          'display': 'none'
+      });
+  }
+  else {
+    $('.particles-js-canvas-el').css({
+      'display': 'inherit'
+  });
+  }
+});
+
 particlesJS("particles-js", {
   "particles": {
     "number": {

@@ -140,7 +140,7 @@
         {{ if $newsletterEnabled }}
           {{ $provider := site.Params.footer.newsletter.provider }}
           <div class="col-md-4 col-sm-12">
-            <p>{{ i18n "newsletter_text" }}</p>
+            <h5>{{ i18n "newsletter_text" }}</h5>
             {{ if and (eq $provider "mailchimp") site.Params.footer.newsletter.mailchimpURL }}  <!-- mailchimp -->
               <form
                 action="{{ site.Params.footer.newsletter.mailchimpURL }}"
@@ -168,11 +168,15 @@
             {{ else }}
               <form method='post' action='https://blogtrottr.com'>
               <div class="form-group">
-              <input type='email' class="form-control" name='btr_email' placeholder="{{ i18n "newsletter_input_placeholder" }}"/><br />
+                <div class="email-form" style="display:flex">
+                  <input type='email' class="form-control" name='btr_email' placeholder="{{ i18n "newsletter_input_placeholder" }}"/>
+                  <button type="submit" class="btn btn-info"> {{ i18n "submit" }} </button>
+                </div>
+                <br>
               <input type='hidden' name='btr_url' value='{{ "" | absLangURL }}index.xml' />
               <input type='hidden' name='schedule_type' value='1' />
               <small id="emailHelp" class="form-text text-muted">{{ i18n "newsletter_warning" }}</small>
-              <button type="submit" class="btn btn-info"> {{ i18n "submit" }} </button>
+              
               </div>
               </form>
             {{ end }}
@@ -189,23 +193,7 @@
     {{ if $credentialsEnabled }}
     <hr />
     <div class="container">
-      <div class="row text-left">
-        <div class="col-md-4">
-          <a id="theme" href="https://github.com/hugo-toha/toha" target="_blank" rel="noopener">
-            <img src="{{ $themeLogo }}" alt="Toha Theme Logo">
-            Toha
-          </a>
-        </div>
-        <div class="col-md-4 text-center">{{ $copyrightNotice | markdownify }}</div>
-        <div class="col-md-4 text-right">
-          <a id="hugo" href="https://gohugo.io/" target="_blank" rel="noopener">{{ i18n "hugoAttributionText" }}
-          <img
-            src="{{ $hugoLogo }}"
-            alt="Hugo Logo"
-            height="18"
-          />
-          </a>
-        </div>
+        <div class="col-md-10 text-center">{{ $copyrightNotice | markdownify }}</div>
       </div>
     </div>
     {{ end }}

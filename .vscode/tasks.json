@@ -1,0 +1,14 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "My custom script",
+            "type": "shell",
+            "command": "npx tinacms dev -c 'hugo server -p 3003'",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
